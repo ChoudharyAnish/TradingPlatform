@@ -1,6 +1,5 @@
 # Environment
-# NOTE: .env is tracked in this repo by request (demo defaults only).
-# Do NOT put real API keys or production secrets here — use .env.local instead.
+.env
 .env.local
 .env.*.local
 !.env.example

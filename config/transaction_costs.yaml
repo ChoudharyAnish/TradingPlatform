@@ -1,0 +1,14 @@
+# Configurable Indian equity cash (delivery) cost assumptions.
+# See docs/research/transaction-costs.md — verify against current circulars/contract notes.
+mode: delivery
+brokerage_per_order: 20.0
+brokerage_pct: 0.0
+stt_buy_pct: 0.001
+stt_sell_pct: 0.001
+exchange_txn_pct: 0.0000297
+sebi_fee_pct: 0.000001
+stamp_duty_buy_pct: 0.00015
+gst_pct: 0.18
+dp_charge_sell: 15.93
+slippage_bps: 5
+spread_bps: 5

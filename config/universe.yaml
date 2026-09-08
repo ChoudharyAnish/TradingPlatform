@@ -1,0 +1,25 @@
+universe:
+  name: nifty_liquid_core
+  exchanges: [NSE]
+  indices:
+    - NIFTY_50
+    - NIFTY_BANK
+    - NIFTY_NEXT_50
+  # Seed symbols (subset for demo). Expand via ingest scripts.
+  symbols:
+    - RELIANCE
+    - TCS
+    - HDFCBANK
+    - INFY
+    - ICICIBANK
+    - SBIN
+    - BHARTIARTL
+    - ITC
+    - LT
+    - KOTAKBANK
+    - NIFTY_50
+    - NIFTY_BANK
+  filters:
+    min_avg_daily_volume: 500000
+    min_history_days: 252
+    exclude_illiquid: true

@@ -1,0 +1,2 @@
+# TradingPlatform
+prediction of trading 
